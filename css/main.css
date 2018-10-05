@@ -45,12 +45,50 @@ html {
     box-shadow: 10px 10px 10px;
 }
 #aboutme {
-    background: blue;
-    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: gray;
+    height: 900px;
+}
+.skill {
+    margin: 10px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+.skill.one {
+    background-image: url('../gfx/skill_one.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.skill.two {
+    background-image: url('../gfx/skill_two.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.skill.three {
+    background-image: url('../gfx/skill_three.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #foto {
-    background: gray;
+    /* background: red; */
     height: 1000px;
+    background-image: url('../gfx/main.jpg');
+    background-size: 100%;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #contact {
     background: blue;
