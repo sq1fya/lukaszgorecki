@@ -15,6 +15,10 @@ html {
     flex-wrap: wrap;
 }
 #main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
     background-image: url('../gfx/main.jpg');
     background-size: 100%;
     height: 900px;
@@ -22,14 +26,23 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
 }
 .my_foto_circle {
+    align-self: center;
     height: 300px;
     width: 300px;
     background-image: url('../gfx/my_foto.png');
     background-size: cover;
     border-radius: 100%;
+}
+.my_story {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    align-self: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
 }
 #aboutme {
     background: blue;
