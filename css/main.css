@@ -1,10 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
 .rwd {
 }
 .menu {
     position: fixed;
-    background: gray;
+    background: white;
     opacity: 0.5;
     height: 40px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;

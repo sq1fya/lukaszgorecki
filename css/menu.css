@@ -2,9 +2,8 @@ a {
     color: black;
     font-size: 150%;
     text-decoration: none;
+    text-align: center;
     margin: 0px 50px 0 50px;
-    /* height: 80px; */
-    /* width: 200px; */
 }
 a:link {
     text-decoration: none;
@@ -17,4 +16,5 @@ a:active {
 }
 a:hover {
     text-decoration: none;
+    background:gray;
 }
