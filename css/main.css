@@ -22,6 +22,14 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 100px;
+}
+.my_foto_circle {
+    height: 300px;
+    width: 300px;
+    background-image: url('../gfx/my_foto.png');
+    background-size: cover;
+    border-radius: 100%;
 }
 #aboutme {
     background: blue;
