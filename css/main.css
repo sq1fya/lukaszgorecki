@@ -15,7 +15,9 @@ html {
     flex-wrap: wrap;
 }
 #main {
-    background: gray;
+    background-image: url('../gfx/main.jpg');
+    background-size: 100%;
+    /* background: no-repeat;  */
     height: 900px;
 }
 #aboutme {
