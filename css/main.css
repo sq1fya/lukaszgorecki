@@ -67,17 +67,29 @@ html {
     background-position: center;
     background-repeat: no-repeat;
 }
+.skill.one:hover {
+    /* padding: 20px; */
+    transform: scale(1.05);
+}
 .skill.two {
     background-image: url('../gfx/skill_two.png');
     background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
 }
+.skill.two:hover {
+    /* padding: 20px; */
+    transform: scale(1.05);
+}
 .skill.three {
     background-image: url('../gfx/skill_three.png');
     background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
+}
+.skill.three:hover {
+    /* padding: 20px; */
+    transform: scale(1.05);
 }
 #foto {
     /* background: red; */

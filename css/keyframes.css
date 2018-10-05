@@ -1,0 +1,15 @@
+.my_story {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: unset;
+}
+@keyframes slidein {
+    from {
+        margin-left: 50%;
+        width :10%;
+    }
+    to {
+        margin-left: 0%;
+        width: 10%;
+    }
+}
