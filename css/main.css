@@ -41,8 +41,11 @@ html {
     font-size: 30px;
     align-self: center;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 30px;
 }
 #aboutme {
     display: flex;
@@ -55,25 +58,26 @@ html {
 }
 .skill {
     margin: 10px;
-    height: 500px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 10px 10px 30px;
 }
 .skill.one {
     background-image: url('../gfx/skill_one.png');
-    background-size: 40%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .skill.one:hover {
+    animation: 2s boxup;
     /* padding: 20px; */
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
 }
 .skill.two {
     background-image: url('../gfx/skill_two.png');
-    background-size: 40%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -83,7 +87,7 @@ html {
 }
 .skill.three {
     background-image: url('../gfx/skill_three.png');
-    background-size: 40%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
 }
