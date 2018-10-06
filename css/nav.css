@@ -4,12 +4,12 @@
     -ms-transition: left 0.5s ease;
     -o-transition: left 0.5s ease;
     transition: left 0.5s ease;
-    background: #28dde0;
+    background: gray;
     color: white;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1rem;
     height: 100vh;
-    left: -20rem;
+    left: -23rem;
     padding: 6rem 2rem 2rem 2rem;
     position: fixed;
     top: 0;

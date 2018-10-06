@@ -1,0 +1,11 @@
+@media (min-width: 375px) {
+.nav-toggle {
+    display: none;
+}
+.nav-toggle-bar {
+    display: none;
+}
+.nav {
+    display: none;
+}
+}

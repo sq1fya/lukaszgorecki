@@ -1,18 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
-.rwd {
+body {
+    margin: 0px;
 }
 .menu {
-    position: fixed;
-    background: white;
-    opacity: 0.5;
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: none;
 }
 #main {
     display: flex;
