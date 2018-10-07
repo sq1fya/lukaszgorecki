@@ -32,7 +32,7 @@
     }
     to {
         transform: scale(1.05);
-    }
+    }    
 }
 @keyframes boxdown {
     from {
