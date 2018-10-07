@@ -11,12 +11,10 @@
 @keyframes slidein {
     from {
         margin-left: 50%;
-        width :10%;
         opacity: 0;
     }
     to {
         margin-left: 0%;
-        width: 10%;
         opacity: 1;
     }
 }

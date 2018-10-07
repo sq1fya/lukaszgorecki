@@ -4,6 +4,26 @@ html {
 body {
     margin: 0px;
 }
+a {
+    color: black;
+    font-size: 2rem;
+}
+ul {
+    margin: 0 auto;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    background:gray;
+}
 .menu {
     display: none;
 }
@@ -34,7 +54,6 @@ body {
     font-size: 30px;
     align-self: center;
     background-color: white;
-    /* border-radius: 10px; */
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -65,8 +84,6 @@ body {
 }
 .skill.one:hover {
     animation: 2s boxup;
-    /* padding: 20px; */
-    /* transform: scale(1.05); */
 }
 .skill.two {
     background-image: url('../gfx/skill_two.png');
@@ -75,8 +92,7 @@ body {
     background-repeat: no-repeat;
 }
 .skill.two:hover {
-    /* padding: 20px; */
-    transform: scale(1.05);
+    animation: 2s boxup;
 }
 .skill.three {
     background-image: url('../gfx/skill_three.png');
@@ -85,11 +101,9 @@ body {
     background-repeat: no-repeat;
 }
 .skill.three:hover {
-    /* padding: 20px; */
-    transform: scale(1.05);
+    animation: 2s boxup;
 }
 #foto {
-    /* background: red; */
     height: 1000px;
     background-image: url('../gfx/main.jpg');
     background-size: 100%;
